@@ -1,4 +1,4 @@
-# MX-Net Docker container
+# GPU accelerated Jupyter with MX-Net Docker container
 
 ## build
 ```
