@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y python-pip python-opencv
 RUN pip install --upgrade pip && \
   pip install ipython jupyter matplotlib opencv-python
 
-ENV TINI_VERSION v0.8.4
+ENV TINI_VERSION v0.18.0
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/bin/tini
 RUN chmod +x /usr/bin/tini
 
